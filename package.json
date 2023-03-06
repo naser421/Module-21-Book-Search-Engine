@@ -12,7 +12,7 @@
   "keywords": [],
   "author": "Naser Suleiman",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": { 
     "concurrently": "^5.1.0"
   }
 }
