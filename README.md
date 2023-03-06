@@ -26,6 +26,7 @@ SO THAT I can keep a list of books to purchase
 
 ## Application Screenshot
 ![Screenshot](client/public/assets/App_Overview.JPG)
+
 ![Screenshot](client/public/assets/book_search.JPG)
  
 ### Installation
