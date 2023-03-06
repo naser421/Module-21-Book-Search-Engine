@@ -25,8 +25,8 @@ SO THAT I can keep a list of books to purchase
 ```
 
 ## Application Screenshot
-![Screenshot](client/public/assets/images/App_Overview.JPG)
-![Screenshot](client/public/assets/images/book_search.JPG)
+![Screenshot](client/public/assets/App_Overview.JPG)
+![Screenshot](client/public/assets/book_search.JPG)
  
 ### Installation
 To acquire the required dependencies for the project, the user has merely to clone the repository and run 'npm install' This package has all of the necessary dependencies, so it may be installed without worrying about missing parts.
