@@ -15,7 +15,7 @@ This application, built with Apollo and React, serves as a book search engine, l
 - [Questions](#questions)
 
 ## Live Link
-[Book Search Engine](https://module-21-book-search-engine.herokuapp.com/)
+[Book Search Engine](https://book-search-challenge-21-mern.herokuapp.com/)
 
 ### User Story
 ```
@@ -42,7 +42,7 @@ MIT
 Copyright (c) 2023 Naser Suleiman
   
 ### Contributing
-Send me an e-mail if you have any suggestions for making this program more robust. [mailto:](naser421@gmail.com)
+Send me an e-mail if you have any suggestions for making this program more robust. [mail](naser421@gmail.com)
 
 ### Questions
     
