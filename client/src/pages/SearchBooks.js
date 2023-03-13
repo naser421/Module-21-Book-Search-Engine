@@ -12,7 +12,7 @@ import {
 import Auth from "../utils/auth";
 import { saveBookIds, getSavedBookIds } from "../utils/localStorage";
 
-import { SAVE_BOOK } from "../utils/mutations";
+import { BOOK_SAVE } from "../utils/mutations";
 import { useMutation } from "@apollo/react-hooks";
 
 const SearchBooks = () => {
@@ -28,7 +28,7 @@ const SearchBooks = () => {
   });
 
  
-  const [saveBook] = useMutation(SAVE_BOOK);
+  const [saveBook] = useMutation(BOOK_SAVE);
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();

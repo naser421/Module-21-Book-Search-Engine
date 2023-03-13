@@ -12,7 +12,7 @@ const resolvers = {
         );
         return userData;
       }
-      throw new AuthenticationError("Not logged in");
+      throw new AuthenticationError("Not yet logged in");
     },
   },
 
@@ -21,12 +21,12 @@ const resolvers = {
       const user = await User.findOne({ email });
       
       if (!user) {
-        throw new AuthenticationError("Incorrect credentials");
+        throw new AuthenticationError("The credentials you provided are incorrect");
       }
       const correctPassword = await user.isCorrectPassword(password);
 
       if (!correctPassword) {
-        throw new AuthenticationError("Incorrect credentials");
+          throw new AuthenticationError("The credentials you provided are incorrect");
       }
 
       const token = signToken(user);
@@ -47,7 +47,7 @@ const resolvers = {
         );
         return updatedUser;
       }
-      throw new AuthenticationError("You need to be logged in!");
+      throw new AuthenticationError("You are not yet logged in!");
     },
     removeBook: async (parent, { bookId }, context) => {
       if (context.user) {
@@ -58,7 +58,7 @@ const resolvers = {
         );
         return updatedUser;
       }
-      throw new AuthenticationError("You need to be logged in!");
+        throw new AuthenticationError("You are not yet logged in!");
     },
   },
 };
